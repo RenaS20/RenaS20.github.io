@@ -18,6 +18,16 @@
             color: white;
             padding: 1rem 0;
             text-align: center;
+            position: relative;
+        }
+
+        header img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
         }
 
         nav {
@@ -59,6 +69,7 @@
     <header>
         <h1>Welcome to My Professional Webpage</h1>
         <p>Your tagline or professional slogan goes here</p>
+        <img src="/mnt/data/Linkedin R_.jpg" alt="Your Profile Picture">
     </header>
 
     <nav>

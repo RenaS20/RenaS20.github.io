@@ -94,10 +94,6 @@
             <p>Write a brief introduction about yourself, your background, and what you do.</p>
         </section>
 
-        <section class="picture-section">
-            <img src="Linkedin R_.jpg" alt="Your Picture">
-        </section>
-
         <section id="services">
             <h2>Services</h2>
             <p>List the professional services or skills you offer.</p>

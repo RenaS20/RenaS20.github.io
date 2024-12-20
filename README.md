@@ -77,11 +77,7 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Professional Webpage</h1>
-        <p>Your tagline or professional slogan goes here</p>
-        <img src="/mnt/data/Linkedin R_.jpg" alt="Your Profile Picture">
-    </header>
+
 
     <nav>
         <a href="#about">About</a>
@@ -96,7 +92,7 @@
         </section>
 
         <section class="picture-section">
-            <img src="Linkedin R_.jpg" alt="Your Picture">
+            <img src="Rena_Linkedin.jpg" alt="Your Picture">
         </section>
     </div>
 

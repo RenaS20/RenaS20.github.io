@@ -18,16 +18,6 @@
             color: white;
             padding: 1rem 0;
             text-align: center;
-            position: relative;
-        }
-
-        header img {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
         }
 
         nav {
@@ -77,11 +67,14 @@
     </style>
 </head>
 <body>
-
+    <header>
+        <h1>Welcome to My Professional Webpage</h1>
+        <p>Your tagline or professional slogan goes here</p>
+    </header>
 
     <nav>
         <a href="#about">About</a>
-        <a href="experience.html">Experience</a>
+        <a href="#experience">Experience</a>
         <a href="contact.html">Contact</a>
     </nav>
 
@@ -91,13 +84,18 @@
             <p>Write a brief introduction about yourself, your background, and what you do.</p>
         </section>
 
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Write a detailed overview of your professional experiences, skills, and accomplishments.</p>
+        </section>
+
         <section class="picture-section">
             <img src="Rena_Linkedin.jpg" alt="Your Picture">
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Rena Shrestha All rights reserved.</p>
     </footer>
 </body>
 </html>

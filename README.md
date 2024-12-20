@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -76,10 +75,6 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Professional Webpage</h1>
-        <p>Your tagline or professional slogan goes here</p>
-    </header>
 
     <nav>
         <a href="#about">About</a>

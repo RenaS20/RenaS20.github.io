@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -40,21 +41,30 @@
             max-width: 1100px;
             margin: auto;
             padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
         }
 
         section {
             margin-bottom: 2rem;
+            flex: 1;
         }
 
-        .picture-section {
-            text-align: right;
-            padding: 1rem;
+        .about-section {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
         }
 
-        .picture-section img {
+        .about-section img {
             width: 200px;
             height: auto;
             border-radius: 10px;
+        }
+
+        .about-section .details {
+            text-align: left;
         }
 
         footer {
@@ -66,6 +76,10 @@
     </style>
 </head>
 <body>
+    <header>
+        <h1>Welcome to My Professional Webpage</h1>
+        <p>Your tagline or professional slogan goes here</p>
+    </header>
 
     <nav>
         <a href="#about">About</a>
@@ -74,18 +88,20 @@
     </nav>
 
     <div class="container">
-        <section id="about">
-        
-            <h2>About Me</h2>
-            <p>Hello! My name is Rena, and I’m a first-year Data Science major with a domain emphasis in Economics. I’m passionate about using data as a tool to overcome and address challenges faced by businesses. I am interested to exploring the intersection of data and economics and cannot wait to learn more as I grow! </p>
-            
-        <section class="picture-section">
-            <img src="Rena_Linkedin.jpg" alt="Your Picture">
+        <section id="about" class="about-section">
+            <img src="Rena_Linkedin.jpg" alt="Rena Shrestha">
+            <div class="details">
+                <h2>About Me</h2>
+                <p>Write a brief introduction about yourself, your background, and what you do.</p>
+                <p><strong>Rena Shrestha</strong><br>
+                UC Berkeley | Class of 2028<br>
+                B.A. in Data Science</p>
+            </div>
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2024 Rena Shrestha All rights reserved.</p>
+        <p>&copy; 2024 Rena Shrestha. All rights reserved.</p>
     </footer>
 </body>
 </html>

@@ -73,14 +73,14 @@
 
     <nav>
         <a href="#about">About</a>
-        <a href="#experience">Experience</a>
+        <a href="experience.html">Experience</a>
         <a href="contact.html">Contact</a>
     </nav>
 
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>Write a brief introduction about yourself, your background, and what you do.</p>
+            <p>Hello! My name is Rena, and I’m a first-year Data Science major with a domain emphasis in Economics. I’m passionate about using data as a tool to overcome and address challenges faced by businesses. I am interested to exploring the intersection of data and economics and cannot wait to learn more as I grow! </p>
         </section>
 
         <section id="experience">

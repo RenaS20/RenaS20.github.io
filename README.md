@@ -79,7 +79,6 @@
     <nav>
         <a href="#about">About</a>
         <a href="experience.html">Experience</a>
-        <a href="volunteer.html">Volunteer Work</a>
         <a href="coursework.html">Coursework</a>
         <a href="contact.html">Contact</a>
     </nav>

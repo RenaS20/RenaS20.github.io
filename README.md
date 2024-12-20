@@ -79,15 +79,14 @@
 
     <div class="container">
         <section id="about">
+
+         <section class="picture-section">
+            <img src="Rena_Linkedin.jpg" alt="Your Picture">
+        </section>
+        
             <h2>About Me</h2>
             <p>Hello! My name is Rena, and I’m a first-year Data Science major with a domain emphasis in Economics. I’m passionate about using data as a tool to overcome and address challenges faced by businesses. I am interested to exploring the intersection of data and economics and cannot wait to learn more as I grow! </p>
-        </section>
-
-        <section id="experience">
-            <h2>Experience</h2>
-            <p>Write a detailed overview of your professional experiences, skills, and accomplishments.</p>
-        </section>
-
+            
         <section class="picture-section">
             <img src="Rena_Linkedin.jpg" alt="Your Picture">
         </section>

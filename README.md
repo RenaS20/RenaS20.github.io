@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -79,13 +80,13 @@
     <header>
         <h1>Welcome to My Professional Webpage</h1>
         <p>Your tagline or professional slogan goes here</p>
-        <img src="Rena_Linkedin.jpg" alt="Your Profile Picture">
+        <img src="/mnt/data/Linkedin R_.jpg" alt="Your Profile Picture">
     </header>
 
     <nav>
         <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
     </nav>
 
     <div class="container">
@@ -94,14 +95,8 @@
             <p>Write a brief introduction about yourself, your background, and what you do.</p>
         </section>
 
-        <section id="services">
-            <h2>Services</h2>
-            <p>List the professional services or skills you offer.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Provide your contact information or a form for visitors to reach out to you.</p>
+        <section class="picture-section">
+            <img src="Linkedin R_.jpg" alt="Your Picture">
         </section>
     </div>
 

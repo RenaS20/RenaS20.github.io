@@ -57,6 +57,17 @@
             margin-bottom: 2rem;
         }
 
+        .picture-section {
+            text-align: right;
+            padding: 1rem;
+        }
+
+        .picture-section img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+
         footer {
             text-align: center;
             padding: 1rem;
@@ -82,6 +93,10 @@
         <section id="about">
             <h2>About Me</h2>
             <p>Write a brief introduction about yourself, your background, and what you do.</p>
+        </section>
+
+        <section class="picture-section">
+            <img src="Linkedin R_.jpg" alt="Your Picture">
         </section>
 
         <section id="services">

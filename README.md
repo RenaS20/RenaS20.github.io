@@ -14,36 +14,30 @@
             flex-direction: column;
             min-height: 100vh;
         }
-
         nav {
             display: flex;
             justify-content: center;
             background-color: #333;
             width: 100%;
         }
-
         nav a {
             color: white;
             padding: 0.8rem 1.5rem;
             text-decoration: none;
             text-align: center;
         }
-
         nav a:hover {
             background-color: #575757;
         }
-
         .container {
             max-width: 1100px;
             margin: auto;
             padding: 2rem;
             flex: 1;
         }
-
         section {
             margin-bottom: 2rem;
         }
-
         footer {
             text-align: center;
             padding: 1rem;
@@ -52,7 +46,7 @@
             width: 100%;
             margin-top: auto;
         }
-</style>
+  </style>
 </head>
 <body>
     <nav>

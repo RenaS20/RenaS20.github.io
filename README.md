@@ -63,7 +63,6 @@
             background-color: #333;
             color: white;
         }
-    </style>
   </style>
 </head>
 <body>

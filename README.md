@@ -72,7 +72,6 @@
         <a href="coursework.html">Coursework</a>
         <a href="contact.html">Contact</a>
     </nav>
-
     <div class="container">
         <section id="about" class="about-section">
             <img src="Rena_Linkedin.jpg" alt="Rena Shrestha">

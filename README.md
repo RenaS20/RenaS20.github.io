@@ -93,7 +93,7 @@
                 UC Berkeley | Class of 2028<br>
                 B.A. in Data Science</p>
                 <p><a href="https://www.linkedin.com/in/rena-shrestha-970352265/" target="_blank">LinkedIn Profile</a><br>
-                <a href="mailto:renashrestha20@gmail.com">renashrestha20@gmail.com</a></p>
+                <p> Email: renashrestha20@gmail.com">renashrestha20@gmail.com</p>
             </div>
         </section>
     </div>

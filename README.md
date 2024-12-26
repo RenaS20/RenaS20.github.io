@@ -15,13 +15,6 @@
             min-height: 100vh;
         }
 
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
         nav {
             display: flex;
             justify-content: center;
@@ -82,11 +75,6 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Professional Webpage</h1>
-        <p>Your tagline or professional slogan goes here</p>
-    </header>
-
     <nav>
         <a href="#about">About</a>
         <a href="experience.html">Experience</a>

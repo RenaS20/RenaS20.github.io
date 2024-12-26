@@ -86,7 +86,9 @@
             <img src="Rena_Linkedin.jpg" alt="Rena Shrestha">
             <div class="details">
                 <h2>About Me</h2>
-                <p>Write a brief introduction about yourself, your background, and what you do.</p>
+                <p>>Hello! My name is Rena, and I’m a first-year Data Science major with a domain emphasis in Economics. I’m passionate about using data as a tool to overcome and address challenges faced by businesses.I am interested to exploring the intersection of data and economics and cannot wait to learn more as I grow! 
+
+</p>
                 <p><strong>Rena Shrestha</strong><br>
                 UC Berkeley | Class of 2028<br>
                 B.A. in Data Science</p>
@@ -95,6 +97,7 @@
             </div>
         </section>
     </div>
+
 
     <footer>
         <p>&copy; 2024 Rena Shrestha. All rights reserved.</p>

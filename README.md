@@ -10,6 +10,9 @@
             padding: 0;
             background-color: #f4f4f9;
             color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
         header {
@@ -23,6 +26,7 @@
             display: flex;
             justify-content: center;
             background-color: #333;
+            width: 100%;
         }
 
         nav a {
@@ -43,6 +47,7 @@
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
+            flex: 1;
         }
 
         section {
@@ -71,15 +76,20 @@
             padding: 1rem;
             background-color: #333;
             color: white;
+            width: 100%;
+            margin-top: auto;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Welcome to My Professional Webpage</h1>
+        <p>Your tagline or professional slogan goes here</p>
+    </header>
 
     <nav>
         <a href="#about">About</a>
         <a href="experience.html">Experience</a>
-        <a href="coursework.html">Coursework</a>
         <a href="contact.html">Contact</a>
     </nav>
 
@@ -88,12 +98,12 @@
             <img src="Rena_Linkedin.jpg" alt="Rena Shrestha">
             <div class="details">
                 <h2>About Me</h2>
-                <p>Hello! My name is Rena, and I’m a first-year Data Science major with a domain emphasis in Economics. I’m passionate about using data as a tool to overcome and address challenges faced by businesses.I am interested to exploring the intersection of data and economics and cannot wait to explore more as I learn and grow!</p>
+                <p>Write a brief introduction about yourself, your background, and what you do.</p>
                 <p><strong>Rena Shrestha</strong><br>
                 UC Berkeley | Class of 2028<br>
                 B.A. in Data Science</p>
                 <p><a href="https://www.linkedin.com/in/rena-shrestha-970352265/" target="_blank">LinkedIn Profile</a><br>
-                <p> Email: renashrestha20@gmail.com">renashrestha20@gmail.com</p>
+                <a href="mailto:renashrestha20@gmail.com">renashrestha20@gmail.com</a></p>
             </div>
         </section>
     </div>

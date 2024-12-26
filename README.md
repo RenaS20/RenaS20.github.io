@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Webpage</title>
     <style>
-        body {
+       body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -37,31 +37,11 @@
             max-width: 1100px;
             margin: auto;
             padding: 2rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
             flex: 1;
         }
 
         section {
             margin-bottom: 2rem;
-            flex: 1;
-        }
-
-        .about-section {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-        }
-
-        .about-section img {
-            width: 200px;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        .about-section .details {
-            text-align: left;
         }
 
         footer {
@@ -72,7 +52,7 @@
             width: 100%;
             margin-top: auto;
         }
-    </style>
+</style>
 </head>
 <body>
     <nav>

@@ -93,6 +93,7 @@
                 B.A. in Data Science</p>
                 <p><a href="https://www.linkedin.com/in/rena-shrestha-970352265/" target="_blank">LinkedIn Profile</a><br>
                 <p><strong>Email:renashrestha20@gmail.com</strong><br>
+                </p>
             </div>
         </section>
     </div>

@@ -78,6 +78,7 @@
     <nav>
         <a href="#about">About</a>
         <a href="experience.html">Experience</a>
+        <a href="coursework.html">CourseWork</a>
         <a href="contact.html">Contact</a>
     </nav>
 

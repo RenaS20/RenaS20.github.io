@@ -1,151 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rena Shrestha</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet" />
-    <style>
-      body {
-        margin: 0;
-        font-family: 'Outfit', sans-serif;
-        background-color: #0f172a;
-        color: #e2e8f0;
-        text-align: center;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hi, I'm Rena</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #1A1D3A;
+      color: #E1E1FF;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
 
-      nav {
-        max-width: 1000px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem 2rem;
-        border-bottom: 1px solid #334155;
-      }
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      gap: 2rem;
+      padding: 1rem 2rem;
+      font-weight: 600;
+      font-size: 1rem;
+    }
 
-      nav .left {
-        font-weight: bold;
-        font-size: 1.1rem;
-      }
+    header a {
+      color: #E1E1FF;
+      text-decoration: none;
+    }
 
-      nav .right a {
-        margin-left: 1.5rem;
-        color: #e2e8f0;
-        text-decoration: none;
-        font-size: 0.95rem;
-        font-weight: 500;
-      }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 700px;
+      text-align: center;
+    }
 
-      .main-content {
-        padding: 3rem 1rem;
-      }
+    .hero img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
 
-      .profile-pic {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 3px solid #475569;
-        margin-bottom: 1.5rem;
-      }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
 
-      h1 {
-        font-size: 2rem;
-        font-weight: 600;
-        margin-bottom: 0.5rem;
-      }
+    .hero h2 {
+      font-size: 1.5rem;
+      margin: 0.5rem 0;
+    }
 
-      h2 {
-        font-size: 1.2rem;
-        font-weight: 600;
-        margin-bottom: 1.5rem;
-        border-bottom: 2px solid #475569;
-        display: inline-block;
-        padding-bottom: 0.3rem;
-      }
+    .hero p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #C7C9FF;
+    }
 
-      p {
-        max-width: 600px;
-        margin: 0 auto 1.2rem auto;
-        font-size: 1rem;
-        line-height: 1.6;
-        color: #cbd5e1;
-      }
+    .social-icons {
+      margin-top: 1.5rem;
+    }
 
-      .resume-button {
-        margin-top: 1.5rem;
-        padding: 0.6rem 1.5rem;
-        border: 1.5px solid #d8d8f6;
-        border-radius: 12px;
-        text-decoration: none;
-        color: #d8d8f6;
-        font-weight: 500;
-        background: transparent;
-        transition: all 0.3s ease;
-        display: inline-block;
-      }
+    .social-icons a {
+      margin: 0 0.5rem;
+      font-size: 1.3rem;
+      color: #C7C9FF;
+    }
 
-      .resume-button:hover {
-        background-color: #1f2937;
-        box-shadow: 0 2px 8px rgba(100, 116, 139, 0.3);
-      }
+    .resume-button {
+      border: 1px solid #C7C9FF;
+      border-radius: 9999px;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      margin-top: 1.5rem;
+      color: #C7C9FF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#">TJ</a>
+    <a href="#">projects</a>
+    <a href="#">experience</a>
+    <a href="#">skills</a>
+    <i class="fas fa-cog"></i>
+  </header>
 
-      .icons {
-        margin-top: 1.8rem;
-        display: flex;
-        justify-content: center;
-        gap: 1.5rem;
-        font-size: 1.2rem;
-      }
+  <section class="hero">
+    <img src="Rena_Linkedin.jpg" alt="Rena Shrestha" />
+    <h1><span style="font-size: 1.5rem;">👋</span> Hi, I'm [Your Name]</h1>
+    <h2>Sophomore studying Data Science major with an concentration in Economics at UC Berkeley</h2>
+    <p>I'm passionate about leveraging data science to tell compelling stories, address real-world challenges, and influence meaningful strategies.</p>
+    <p>I am interested in exploring the intersection of data and economics and cannot wait to learn more through my classes and opportunities!</p>
 
-      .icons a {
-        color: #e2e8f0;
-        text-decoration: none;
-        transition: color 0.2s;
-      }
-
-      .icons a:hover {
-        color: #3b82f6;
-      }
-    </style>
-  </head>
-
-  <body>
-    <nav>
-      <div class="left">RS</div>
-      <div class="right">
-        <a href="#">projects</a>
-        <a href="#">experience</a>
-        <a href="#">skills</a>
-      </div>
-    </nav>
-
-    <div class="main-content">
-
-      <img src="Rena_Linkedin.jpg" alt="Rena Shrestha" class="profile-pic" />
-
-        alt="Profile photo"
-        class="profile-pic"
-      />
-      <h1>👋 Hi, I'm Rena</h1>
-      <h2>First-Year Data Science Major at UC Berkeley</h2>
-      <p>
-        I'm passionate about using data as a tool to solve challenges faced by businesses.
-        I'm especially interested in the intersection of data and economics and excited to
-        grow as I learn more.
-      </p>
-      <p>
-        This summer, I’m building my skills in machine learning and working on data-driven projects.
-      </p>
-
-      <a href="#" class="resume-button">resume</a>
-
-      <div class="icons">
-        <a href="#"><span>🌐</span></a>
-        <a href="#"><span>🔗</span></a>
-        <a href="#"><span>✉️</span></a>
-      </div>
+    <a class="resume-button" href="your-resume.pdf" target="_blank">resume</a>
+    <div class="social-icons">
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
     </div>
-  </body>
+  </section>
+</body>
 </html>

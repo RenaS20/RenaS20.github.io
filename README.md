@@ -97,7 +97,7 @@
   <section class="hero">
     <img src="Rena_Linkedin.jpg" alt="Rena Shrestha" />
     <h1><span style="font-size: 1.5rem;">👋</span> Hi, I'm [Your Name]</h1>
-    <h2>Sophomore studying Data Science major with an concentration in Economics at UC Berkeley</h2>
+    <h2>Sophomore studying Data Science major with a concentration in Economics at UC Berkeley</h2>
     <p>I'm passionate about leveraging data science to tell compelling stories, address real-world challenges, and influence meaningful strategies.</p>
     <p>I am interested in exploring the intersection of data and economics and cannot wait to learn more through my classes and opportunities!</p>
 

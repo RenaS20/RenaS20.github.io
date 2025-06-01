@@ -150,7 +150,7 @@
         alt="Profile photo"
         class="profile-pic"
       />
-      <h1> Hi, I'm Rena</h1>
+      <h1>👋 Hi, I'm Rena</h1>
       <h2>First-Year Data Science Major at UC Berkeley</h2>
       <p>
         I'm passionate about using data as a tool to solve challenges faced by businesses.

@@ -1,6 +1,10 @@
-/* General Body Styling */
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: 'Inter', sans-serif;
   background-color: #1A1D3A;
   color: #E1E1FF;
@@ -10,113 +14,106 @@ body {
   padding: 2rem;
 }
 
-/* Header Styling */
+/* Header */
 header {
   width: 100%;
-  display: flex;
-  justify-content: flex-end;
   padding: 1rem 2rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #E1E1FF;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
-  position: fixed;
-  top: 0;
-  background-color: #1A1D3A;
-  z-index: 100;
-}
-
-header nav {
-  display: flex;
-  gap: 2rem;
-}
-
-header a {
   color: #E1E1FF;
-  text-decoration: none;
 }
 
-header i {
+nav i {
   color: #E1E1FF;
   cursor: pointer;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  max-width: 700px;
+  margin-top: 4rem;
   text-align: center;
-  padding-top: 5rem;
+  max-width: 700px;
 }
 
-/* Profile Image */
-.hero img {
+.profile-img {
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
   object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
-/* Headings */
-.hero h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin: 0.5rem 0;
-}
-
 .hero h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  margin: 0.5rem 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
 }
 
-/* Paragraphs */
 .hero p {
   font-size: 1rem;
-  line-height: 1.6;
   color: #C7C9FF;
-  margin: 0.5rem 0;
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 
-/* Resume Button */
 .resume-button {
   display: inline-block;
-  border: 1px solid #C7C9FF;
-  border-radius: 9999px;
-  padding: 0.5rem 1.2rem;
-  font-size: 1rem;
   margin-top: 1.5rem;
-  color: #C7C9FF;
+  padding: 0.5rem 1.2rem;
+  border: 1px solid #C7C9FF;
+  border-radius: 999px;
   text-decoration: none;
-  transition: all 0.3s ease;
+  color: #C7C9FF;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
 }
 
 .resume-button:hover {
-  background-color: #C7C9FF;
-  color: #1A1D3A;
+  background-color: #2E3165;
 }
 
-/* Social Icons */
 .social-icons {
-  margin-top: 1.5rem;
+  margin-top: 1.8rem;
 }
 
 .social-icons a {
-  margin: 0 0.5rem;
+  margin: 0 0.6rem;
   font-size: 1.3rem;
   color: #C7C9FF;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #ffffff;
-}
-
-/* Emoji wave spacing */
-.wave {
-  font-size: 1.5rem;
-  margin-right: 0.5rem;
+  color: #FFFFFF;
 }

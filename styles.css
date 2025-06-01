@@ -1,102 +1,88 @@
+/* Reset & base styles */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
   background-color: #1A1D3A;
   color: #E1E1FF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 2rem;
 }
 
-/* Header */
-header {
-  width: 100%;
-  padding: 1rem 2rem;
-}
-
-.nav-container {
+/* Navigation */
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin-bottom: 4rem;
 }
 
 .logo {
+  font-size: 1.5rem;
   font-weight: 700;
-  font-size: 1.2rem;
-  color: #E1E1FF;
 }
 
-nav {
+.nav-links {
   display: flex;
-  align-items: center;
   gap: 1.5rem;
-}
-
-nav a {
-  text-decoration: none;
-  font-weight: 600;
+  align-items: center;
+  font-weight: 500;
   font-size: 1rem;
-  color: #E1E1FF;
 }
 
-nav i {
-  color: #E1E1FF;
-  cursor: pointer;
-}
-
-/* Hero */
+/* Hero Section */
 .hero {
-  margin-top: 4rem;
-  text-align: center;
-  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.profile-img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1.5rem;
+.hero-content {
+  flex: 1 1 500px;
+  max-width: 600px;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
+.hero-content h1 {
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
   font-weight: 700;
-  margin-bottom: 1rem;
 }
 
-.hero h2 {
+.hero-content h2 {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 1.5rem;
-  line-height: 1.4;
 }
 
-.hero p {
-  font-size: 1rem;
+.hero-content p {
   color: #C7C9FF;
-  margin-bottom: 1rem;
-  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
 .resume-button {
   display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.5rem 1.2rem;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
   border: 1px solid #C7C9FF;
   border-radius: 999px;
-  text-decoration: none;
   color: #C7C9FF;
   font-weight: 500;
-  transition: background-color 0.3s ease;
+  transition: background 0.3s ease;
 }
 
 .resume-button:hover {
@@ -104,16 +90,31 @@ nav i {
 }
 
 .social-icons {
-  margin-top: 1.8rem;
+  margin-top: 1.5rem;
 }
 
 .social-icons a {
-  margin: 0 0.6rem;
-  font-size: 1.3rem;
+  margin-right: 1rem;
+  font-size: 1.4rem;
   color: #C7C9FF;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
   color: #FFFFFF;
+}
+
+/* Hero Image */
+.hero-image {
+  flex: 1 1 300px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.hero-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 999px;
+  border: 4px solid #C7C9FF;
 }

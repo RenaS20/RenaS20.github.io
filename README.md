@@ -1,106 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rena Shrestha</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f1629;
+      color: #d8d8f6;
+    }
 
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-            width: 100%;
-        }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: transparent;
+    }
 
-        nav a {
-            color: white;
-            padding: 0.8rem 1.5rem;
-            text-decoration: none;
-            text-align: center;
-        }
+    nav .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #d8d8f6;
+    }
 
-        nav a:hover {
-            background-color: #575757;
-        }
+    nav a {
+      color: #d8d8f6;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
 
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 2rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            flex: 1;
-        }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
 
-        section {
-            margin-bottom: 2rem;
-            flex: 1;
-        }
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #d8d8f6;
+      margin-bottom: 2rem;
+    }
 
-        .about-section {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-        }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
 
-        .about-section img {
-            width: 200px;
-            height: auto;
-            border-radius: 10px;
-        }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
 
-        .about-section .details {
-            text-align: left;
-        }
+    p {
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
 
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #333;
-            color: white;
-            width: 100%;
-            margin-top: auto;
-        }
-    </style>
+    .icons a {
+      color: #d8d8f6;
+      margin: 0 0.6rem;
+      font-size: 1.4rem;
+      transition: color 0.3s;
+    }
+
+    .icons a:hover {
+      color: #a5b4fc;
+    }
+
+    .resume-button {
+      margin-top: 1.5rem;
+      padding: 0.5rem 1.2rem;
+      border: 2px solid #d8d8f6;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #d8d8f6;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    .resume-button:hover {
+      background-color: #1e293b;
+    }
+  </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">About</a>
-        <a href="experience.html">Experience</a>
-        <a href="coursework.html">Coursework</a>
-        <a href="contact.html">Contact</a>
-    </nav>
 
-    <div class="container">
-        <section id="about" class="about-section">
-            <img src="Rena_Linkedin.jpg" alt="Rena Shrestha">
-            <div class="details">
-                <h2>About Me</h2>
-                <p>Hello! My name is Rena, and I’m a first-year Data Science major with a domain emphasis in Economics. I’m passionate about using data as a tool to overcome and address challenges faced by businesses.I am interested in exploring the intersection of data and economics and cannot wait to learn more as I grow.</p>
-                <p><strong>Rena Shrestha</strong><br>
-                UC Berkeley | Class of 2028<br>
-                B.A. in Data Science</p>
-                <p><a href="https://www.linkedin.com/in/rena-shrestha-970352265/" target="_blank">LinkedIn Profile</a><br>
-                Work email: <a href="mailto:renashrestha20@gmail.com">renashrestha20@gmail.com</a><br>
-                School email: <a href="mailto:renashrestha@berkeley.edu">renashrestha@berkeley.edu</a></p>
-            </div>
-        </section>
+  <nav>
+    <div class="logo">RS</div>
+    <div>
+      <a href="#">projects</a>
+      <a href="#">experience</a>
+      <a href="#">skills</a>
     </div>
+  </nav>
 
-    <footer>
-        <p>&copy; 2024 Rena Shrestha. All rights reserved.</p>
-    </footer>
+  <div class="container">
+    <img src="Rena_Linkedin.jpg" alt="Rena Shrestha" class="profile-pic" />
+    <h1>👋 Hi, I'm Rena</h1>
+    <h2>First-Year Data Science Major at UC Berkeley</h2>
+    <p>
+      I'm passionate about using data as a tool to solve challenges faced by businesses.
+      I'm especially interested in the intersection of data and economics and excited to grow as I learn more.
+    </p>
+    <p>
+      This summer, I’m building my skills in machine learning and working on data-driven projects.
+    </p>
+    <a class="resume-button" href="your_resume.pdf" target="_blank">resume</a>
+    <div class="icons" style="margin-top: 1.5rem;">
+      <a href="https://github.com/yourgithub" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rena-shrestha-970352265/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:renashrestha@berkeley.edu"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+
 </body>
 </html>

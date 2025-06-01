@@ -122,8 +122,9 @@
     </nav>
 
     <div class="main-content">
-      <img
-        src="https://i.imgur.com/fHyEMsl.jpeg"
+
+      <img src="Rena_Linkedin.jpg" alt="Rena Shrestha" class="profile-pic" />
+
         alt="Profile photo"
         class="profile-pic"
       />

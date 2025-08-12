@@ -183,7 +183,7 @@ ul {
 footer {
   text-align: center;
   padding: 1em;
-  background-color: rgba(244, 247, 250, 0.8); /* Slight transparency */
+  /*background-color: rgba(244, 247, 250, 0.8); /* Slight transparency */
   color: #555;
   margin-top: 3em;
 }

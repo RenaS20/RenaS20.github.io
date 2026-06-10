@@ -1,49 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Projects</title>
- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
- <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - RS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 2.5rem 0 1.25rem;
+    }
+    .section-label h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #003d80;
+      margin: 0;
+      white-space: nowrap;
+    }
+    .section-label .line {
+      flex: 1;
+      height: 2px;
+      background: #003d80;
+      opacity: 0.15;
+    }
+    .section-label i {
+      color: #003d80;
+      font-size: 0.95rem;
+      opacity: 0.7;
+    }
+
+    /* Project grid */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.1rem;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.25rem 1.4rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+      border-left: 4px solid #0056b3;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .project-card .project-title {
+      font-size: 0.97rem;
+      font-weight: 700;
+      color: #003d80;
+      margin: 0;
+    }
+
+    .project-card .project-desc {
+      font-size: 0.85rem;
+      color: #444;
+      line-height: 1.5;
+      margin: 0;
+      flex: 1;
+    }
+
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.25rem;
+    }
+
+    .tech-tag {
+      background: #eef2fb;
+      color: #003d80;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+    }
+
+    .project-links {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 0.4rem;
+    }
+
+    .project-links a {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #0056b3;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      transition: color 0.2s;
+    }
+
+    .project-links a:hover {
+      color: #003d80;
+    }
+
+    .project-links a i {
+      font-size: 0.75rem;
+    }
+  </style>
 </head>
 <body>
- <div class="container">
-   <nav>
+  <div class="container">
+    <nav>
       <div class="logo">RS</div>
       <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
-        <a href="experience.html" class="active">Experience</a>
+        <a href="experience.html">Experience</a>
         <a href="skills.html">Skills</a>
-        <i class="fas fa-cog"></i>
-     </div>
-   </nav>
+      </div>
+    </nav>
 
-   <main>
-     <h2>Sentiment Analysis of Online Reviews</h2>
-     <p><strong>Technologies:</strong> Machine Learning | NLP | Python | Google Colab</p>
+    <main>
 
-     <h3>Project Overview:</h3>
-     <ul>
-       <li><strong>Data Preprocessing:</strong> Cleaned and vectorized review text.</li>
-       <li><strong>Model Development:</strong> Tested multiple supervised learning models.</li>
-       <li><strong>Evaluation:</strong> Measured performance with accuracy and other metrics.</li>
-       <li><strong>Deployment:</strong> Collaboratively developed on Google Colab.</li>
-     </ul>
+      <!-- ML & DATA SCIENCE -->
+      <div class="section-label">
+        <i class="fas fa-brain"></i>
+        <h2>Machine Learning & Data Science</h2>
+        <div class="line"></div>
+      </div>
 
-     <p>The final model distinguishes sentiment effectively, offering insights for businesses and consumers.</p>
-     <p>
-       🔗 <a href="https://colab.research.google.com/drive/1wtGgH4AIlZAVV_dL8W8Z4LEfLDjoaGvj#scrollTo=uUfjSAi7B357" target="_blank">
-         View Project on Google Colab
-       </a>
-     </p>
-   </main>
- </div>
+      <div class="projects-grid">
 
- <footer>
-   <p>&copy; 2025 Rena Shrestha</p>
- </footer>
+        <div class="project-card">
+          <p class="project-title">Sentiment Analysis of Online Reviews</p>
+          <p class="project-desc">Analyzed 388 customer reviews to identify sentiment trends tied to product perception and churn risk. Built an end-to-end NLP classification pipeline achieving 82% accuracy.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">NLP</span>
+            <span class="tech-tag">Scikit-learn</span>
+            <span class="tech-tag">NLTK</span>
+            <span class="tech-tag">Pandas</span>
+          </div>
+          <div class="project-links">
+            <a href="https://colab.research.google.com/drive/1wtGgH4AIlZAVV_dL8W8Z4LEfLDjoaGvj" target="_blank"><i class="fas fa-external-link-alt"></i> View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <p class="project-title">Customer Segmentation Engine</p>
+          <p class="project-desc">Clustered user data using unsupervised learning techniques to support personalized product recommendations. Built during internship at Lextrack AI.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Scikit-learn</span>
+            <span class="tech-tag">Clustering</span>
+            <span class="tech-tag">Pandas</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ANALYTICS & DASHBOARDS -->
+      <div class="section-label">
+        <i class="fas fa-chart-bar"></i>
+        <h2>Analytics & Dashboards</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <p class="project-title">CourseWise Education Meta-Analytics II</p>
+          <p class="project-desc">Transformed time-series usage logs into metric-ready tables and built an internal analytics dashboard to support executive and analyst decision-making across institutional segments.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Data Visualization</span>
+          </div>
+          <div class="project-links">
+            <a href="https://docs.google.com/presentation/d/1e6vPNzqa6KNfFt51xwIJ_looB3y1do7D_nCxkzeKZdg/edit" target="_blank"><i class="fas fa-external-link-alt"></i> View Slides</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <p class="project-title">User KPI Dashboard</p>
+          <p class="project-desc">Designed and deployed a dashboard to track engagement, retention, and performance metrics for Athena Notes, enabling data-driven product roadmap decisions.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">KPI Metrics</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- AI TOOLS -->
+      <div class="section-label">
+        <i class="fas fa-robot"></i>
+        <h2>AI Tools</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <p class="project-title">LLM App Performance Analyzer</p>
+          <p class="project-desc">Built an internal tool to track model response quality and inference latency across LLM applications, improving monitoring accuracy for the engineering team at Lextrack AI.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">OpenAI API</span>
+            <span class="tech-tag">LLM Evaluation</span>
+            <span class="tech-tag">CLI</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <p class="project-title">AI Resume Analyzer</p>
+          <p class="project-desc">Extracted key resume insights and matched candidate skills to job roles using LLM-powered parsing. Built at Lextrack AI to support internal hiring workflows.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">OpenAI API</span>
+            <span class="tech-tag">NLP</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <p class="project-title">Tutor Chatbot</p>
+          <p class="project-desc">Delivered personalized learning support for students using GPT-4 and RAG. Built for Athena Notes to improve EdTech tutoring outcomes and reduce hallucinations.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">LangChain</span>
+            <span class="tech-tag">RAG</span>
+            <span class="tech-tag">OpenAI API</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <p class="project-title">Evaluator Performance Chatbot</p>
+          <p class="project-desc">Assessed chatbot responses against quality rubrics to identify improvement areas and enhance AI-assisted tutoring outcomes at Athena Notes.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">LangChain</span>
+            <span class="tech-tag">Moderation API</span>
+            <span class="tech-tag">LLM Evaluation</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Rena Shrestha</p>
+  </footer>
 </body>
 </html>

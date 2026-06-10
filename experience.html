@@ -6,7 +6,96 @@
   <title>Experience</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="styles.css"> <!-- Use same styles as main page -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 2.5rem 0 1.25rem;
+    }
+    .section-label h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #003d80;
+      margin: 0;
+      white-space: nowrap;
+    }
+    .section-label .line {
+      flex: 1;
+      height: 2px;
+      background: #003d80;
+      opacity: 0.15;
+    }
+    .section-label i {
+      color: #003d80;
+      font-size: 0.95rem;
+      opacity: 0.7;
+    }
+    .exp-card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+      border-left: 4px solid #0056b3;
+    }
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 0.2rem;
+    }
+    .exp-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #003d80;
+      margin: 0;
+    }
+    .exp-date {
+      font-size: 0.8rem;
+      color: #666;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .exp-company {
+      font-size: 0.87rem;
+      color: #555;
+      font-weight: 500;
+      margin: 0.15rem 0 0.75rem;
+    }
+    .exp-card ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+    .exp-card ul li {
+      font-size: 0.88rem;
+      color: #333;
+      margin-bottom: 0.4rem;
+      line-height: 1.55;
+    }
+    .exp-card ul ul {
+      margin-top: 0.3rem;
+    }
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.75rem;
+    }
+    .tech-tag {
+      background: #eef2fb;
+      color: #003d80;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -22,36 +111,160 @@
     </nav>
 
     <main>
-      <!-- Experience 1 -->
-      <h2>Data & Machine Learning Intern | Lextrack AI — Remote</h2>
-      <p><strong>Summer:</strong> May 2025 – August 2025</p>
-      <ul>
-        <li>Maintained and enhanced metrics dashboard for internal AI performance monitoring, ensuring accurate and timely reporting for the engineering team.</li>
-        <li>Updated a CLI tool to parse logs for error categorization and prompt inference latency, improving debugging efficiency and monitoring accuracy.</li>
-        <li>Benchmarked prompt evaluation frameworks (OpenAI, Lovable AI), documenting methodologies and trade-offs to guide internal adoption decisions.</li>
-        <li>Built multiple AI tools for the company, including:
-          <ul>
-            <li><strong>LLM App Performance Analyzer</strong> – tracked model response quality and latency.</li>
-            <li><strong>AI Resume Analyzer</strong> – extracted key resume insights and matched candidate skills to roles.</li>
-            <li><strong>Customer Segmentation Engine</strong> – clustered user data to support personalized recommendations.</li>
-          </ul>
-        </li>
-      </ul>
 
-      <!-- Experience 2 -->
-      <h2>Data Analytics Intern | Athena Notes — Remote</h2>
-      <p><strong>Summer:</strong> May 2025 – August 2025</p>
-      <ul>
-        <li>Designed and deployed a User KPI Dashboard (SQL, JavaScript, Python) to track engagement, retention, and performance metrics, enabling data-driven product roadmap decisions.</li>
-        <li>Researched AI chatbot implementations in EdTech leaders (Khan Academy, Duolingo) to identify best practices in tutoring, content generation, and GPT-4-powered user interaction.</li>
-        <li>Evaluated tools including OpenAI API, LangChain, Moderation API, and RAG to improve chatbot accuracy, reduce hallucinations, and increase user trust.</li>
-        <li>Built two AI tools:
-          <ul>
-            <li><strong>Tutor Chatbot</strong> – delivering personalized learning support for students.</li>
-            <li><strong>Evaluator Performance Chatbot</strong> – assessing chatbot responses against quality rubrics to identify improvement areas and enhance AI-assisted tutoring outcomes.</li>
-          </ul>
-        </li>
-      </ul>
+      <!-- INTERNSHIPS -->
+      <div class="section-label">
+        <i class="fas fa-briefcase"></i>
+        <h2>Internships</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <p class="exp-title">Data &amp; Machine Learning Intern</p>
+          <span class="exp-date">May 2025 – Aug 2025</span>
+        </div>
+        <p class="exp-company">Lextrack AI &nbsp;·&nbsp; Remote</p>
+        <ul>
+          <li>Maintained and enhanced metrics dashboard for internal AI performance monitoring, ensuring accurate and timely reporting for the engineering team.</li>
+          <li>Updated a CLI tool to parse logs for error categorization and prompt inference latency, improving debugging efficiency and monitoring accuracy.</li>
+          <li>Benchmarked prompt evaluation frameworks (OpenAI, Lovable AI), documenting methodologies and trade-offs to guide internal adoption decisions.</li>
+          <li>Built multiple AI tools for the company, including:
+            <ul>
+              <li><strong>LLM App Performance Analyzer</strong> – tracked model response quality and latency.</li>
+              <li><strong>AI Resume Analyzer</strong> – extracted key resume insights and matched candidate skills to roles.</li>
+              <li><strong>Customer Segmentation Engine</strong> – clustered user data to support personalized recommendations.</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">OpenAI API</span>
+          <span class="tech-tag">CLI</span>
+          <span class="tech-tag">LLM Evaluation</span>
+          <span class="tech-tag">Data Dashboards</span>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <p class="exp-title">Data Analytics Intern</p>
+          <span class="exp-date">May 2025 – Aug 2025</span>
+        </div>
+        <p class="exp-company">Athena Notes &nbsp;·&nbsp; Remote</p>
+        <ul>
+          <li>Designed and deployed a User KPI Dashboard (SQL, JavaScript, Python) to track engagement, retention, and performance metrics, enabling data-driven product roadmap decisions.</li>
+          <li>Researched AI chatbot implementations in EdTech leaders (Khan Academy, Duolingo) to identify best practices in tutoring, content generation, and GPT-4-powered user interaction.</li>
+          <li>Evaluated tools including OpenAI API, LangChain, Moderation API, and RAG to improve chatbot accuracy, reduce hallucinations, and increase user trust.</li>
+          <li>Built two AI tools:
+            <ul>
+              <li><strong>Tutor Chatbot</strong> – delivering personalized learning support for students.</li>
+              <li><strong>Evaluator Performance Chatbot</strong> – assessing chatbot responses against quality rubrics to identify improvement areas and enhance AI-assisted tutoring outcomes.</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">SQL</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">LangChain</span>
+          <span class="tech-tag">RAG</span>
+          <span class="tech-tag">OpenAI API</span>
+        </div>
+      </div>
+
+      <!-- RESEARCH -->
+      <div class="section-label">
+        <i class="fas fa-flask"></i>
+        <h2>Research</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <p class="exp-title">Sentiment Analysis of Online Reviews</p>
+          <span class="exp-date">2025</span>
+        </div>
+        <p class="exp-company">Independent Research &nbsp;·&nbsp; Machine Learning, NLP</p>
+        <ul>
+          <li>Analyzed 388 customer reviews to identify sentiment trends tied to product perception and churn risk.</li>
+          <li>Built an end-to-end NLP classification pipeline using Python (Pandas, NLTK, Scikit-learn) in Google Colab, achieving <strong>82% accuracy</strong>.</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">NLP</span>
+          <span class="tech-tag">Scikit-learn</span>
+          <span class="tech-tag">NLTK</span>
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Google Colab</span>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <p class="exp-title">CourseWise Education Meta-Analytics II</p>
+          <span class="exp-date">2025</span>
+        </div>
+        <p class="exp-company">Internal Metrics &amp; Impact Dashboard &nbsp;·&nbsp; SQL, Python</p>
+        <ul>
+          <li>Transformed time-series usage logs into metric-ready tables using Python (Pandas), enabling tracking of engagement trends across institutional segments.</li>
+          <li>Defined and implemented core product metrics and visualizations to support development of an internal analytics dashboard for executive and analyst decision-making.</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">SQL</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Data Visualization</span>
+        </div>
+      </div>
+
+      <!-- CLUBS & LEADERSHIP -->
+      <div class="section-label">
+        <i class="fas fa-users"></i>
+        <h2>Clubs &amp; Leadership</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <p class="exp-title">Senior Data Science Mentor &amp; Student Support</p>
+          <span class="exp-date">Sep 2025 – Present</span>
+        </div>
+        <p class="exp-company">UC Berkeley Computer Science Mentors (CSM) &nbsp;·&nbsp; On-site</p>
+        <ul>
+          <li>Lead Content Mentor meetings and collaborate with coordinators to shape curriculum strategy and improve content delivery for Data C88C (Computational Structures in Data Science).</li>
+          <li>Develop and maintain technical learning resources — worksheets, solutions, and original problem sets — for 80+ students weekly.</li>
+          <li>Design mentor guides supporting effective teaching of complex technical concepts; spearhead curriculum initiatives to improve student learning outcomes.</li>
+          <li>Conduct weekly discussion sections and provide additional student support through office hours and community events.</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">Teaching</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Curriculum Design</span>
+          <span class="tech-tag">Mentorship</span>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <p class="exp-title">Director of Industry</p>
+          <span class="exp-date">Dec 2024 – Present</span>
+        </div>
+        <p class="exp-company">UC Berkeley CS Kickstart &nbsp;·&nbsp; On-site</p>
+        <ul>
+          <li>Lead industry outreach and campus partnerships to connect 80+ women-identifying first-year CS students with companies through professional development, networking events, and workshops.</li>
+          <li>Work closely with corporate partners to bring career-focused resources, workshops, and industry insights to members.</li>
+          <li>Previously served on External &amp; Internal Committee (Dec 2024 – Dec 2025), coordinating event logistics, networking panels, socials, and speaker engagements.</li>
+          <li>Participated as a Student in the CS Kickstart bootcamp (Aug–Dec 2024) — completed hands-on workshops in Python, Data Science, and Web Development; attended field trips to Adobe &amp; Ammunition.</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">Industry Outreach</span>
+          <span class="tech-tag">Event Planning</span>
+          <span class="tech-tag">Community Engagement</span>
+          <span class="tech-tag">Leadership</span>
+        </div>
+      </div>
+
     </main>
   </div>
 

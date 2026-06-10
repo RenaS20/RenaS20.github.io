@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events - RS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 2.5rem 0 1.25rem;
+    }
+    .section-label h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #003d80;
+      margin: 0;
+      white-space: nowrap;
+    }
+    .section-label .line {
+      flex: 1;
+      height: 2px;
+      background: #003d80;
+      opacity: 0.15;
+    }
+    .section-label i {
+      color: #003d80;
+      font-size: 0.95rem;
+      opacity: 0.7;
+    }
+
+    .event-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+      border-left: 4px solid #0056b3;
+    }
+
+    .event-card img {
+      width: 100%;
+      max-height: 340px;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+
+    .event-body {
+      padding: 1.25rem 1.5rem;
+    }
+
+    .event-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #003d80;
+      margin: 0 0 0.5rem;
+    }
+
+    .event-desc {
+      font-size: 0.87rem;
+      color: #444;
+      line-height: 1.6;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">RS</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="skills.html">Skills</a>
+        <a href="events.html">Events</a>
+      </div>
+    </nav>
+
+    <main>
+
+      <div class="section-label">
+        <i class="fas fa-calendar-star"></i>
+        <h2>Events Attended</h2>
+        <div class="line"></div>
+      </div>
+
+      <!-- Event 1 -->
+      <div class="event-card">
+        <img src="coursewise_image1.jpeg" alt="DS Discovery Symposium - Rena presenting CourseWise poster" />
+        <div class="event-body">
+          <p class="event-title">DS Discovery Symposium</p>
+          <p class="event-desc">The Data Discovery Symposium features poster presentations from student researchers. Working with mentors across campus and industry, Data Discovery participants use their data skills to design analyses, build tools, and present solutions to real-world challenges. I presented my CourseWise Education Meta-Analytics II project, showcasing an internal metrics dashboard built to track platform engagement and institutional adoption.</p>
+        </div>
+      </div>
+
+      <!-- Event 2 -->
+      <div class="event-card">
+        <img src="amazon_image1.jpeg" alt="Amazon x CS Kickstart - Emotional Intelligence event" />
+        <div class="event-body">
+          <p class="event-title">Amazon x CS Kickstart — Emotional Intelligence Can Supercharge Your Career</p>
+          <p class="event-desc">From navigating rejections and interviews to building emotional competence at work, we explored how EQ is the often-overlooked skill that carries us through some of the most defining career moments. This event, organized through CS Kickstart's industry partnership with Amazon, brought together students and professionals to discuss the human side of building a career in tech.</p>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Rena Shrestha</p>
+  </footer>
+</body>
+</html>
